@@ -1,0 +1,42 @@
+
+/* asterisk selector selects all elements on a page */
+/*  font-family sets the fonts to be used in the page*/
+/*  load multiple fonts in chain of priority, will load them in order to see if the user has them */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+
+body {
+  background-color: lemonchiffon;
+}
+
+/* selects all elements within header/footer
+  line-height sets the distance between lines of text */
+header,
+footer  {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+
+/* .classname is used for selecting a class
+  font-weight defines the stroke on a text element  */
+
+.highlighted-text {
+  font-weight: bolder;
+}
+
+
+/* #id is used for selecting an id */
+#contact-section {
+  background-color: #f0ead6;
+}
